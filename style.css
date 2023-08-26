@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.logo{
+    height:10rem;
+    width:100vw;
+}
+
+nav{
+    background-color: blue;
+    height: 4rem;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav ul li{
+    list-style: none;
+    margin-left: 12rem;
+    padding:21px;
+    margin-right: 12rem;
+}
+
+nav ul li a{
+    text-decoration: none;
+    margin: 82px;
+    color:white;
+    cursor: pointer;
+}
+
+nav ul li a:hover{
+    text-decoration:underline;
+    margin: 82px;
+    color:white;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+
+.container{
+    height: 82vh;
+    background-color: white;
+}
+
+.bc{
+    height: 40vh;
+    width: 100vw;
+}
+
+#container2{
+    display: flex;
+    height:20vh;
+}
+
+.list-table{
+flex:1;
+padding:10px;
+border: 5px solid black;
+}
+
+.list-table ul li a{
+    text-decoration: none;
+    padding:10px;
+    color: black;
+    list-style: none;
+    cursor: pointer;
+
+}
+
+.list-table ul li a:hover{
+    text-decoration: underline;
+    padding:10px;
+    list-style: none;
+    cursor: pointer;
+    color: white;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table th,td{
+    border: 1px solid black;
+    padding:1px;
+    text-align: left;
+}
+
+.social-icons {
+    display: flex;
+}
+
+#icon {
+    margin-right: 3rem;
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+
+.facebook{
+    margin-left: 30rem;
+}
+
+.instagram{
+    color:#c32aa3;
+}
+
+footer{
+    height:4rem;
+    background-color: blue;
+}
+
+footer p{
+    text-align: center;
+    padding:20px 0px;
+    color: white;
+}
+
